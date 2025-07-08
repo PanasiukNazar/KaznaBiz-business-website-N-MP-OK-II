@@ -232,9 +232,8 @@ h6,
             to right,
             rgba(2, 36, 91, 1) 0%,
             rgba(2, 36, 91, 0) 100%
-        ),
-        url(../img/carousel-2.jpg) center center no-repeat;
-    background-size: cover;
+        )
+     
 }
 
 .page-header .breadcrumb-item + .breadcrumb-item::before {
@@ -379,7 +378,12 @@ h6,
     transform: translateX(-50%);
     background: #ffffff;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.09);
+  
     z-index: 2;
+}
+
+.service-item .service-img img {
+    object-fit: cover;
 }
 
 .service-item .service-detail {
